@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Reunion </title>
+    <link rel="stylesheet" href="Reunion.css">
+    <script src="Reunion.js"></script>
+  </head>
+  <body>
+    <header class="header">
+    <h1> <a href="index.html"> Reunion/Gathering </a> </h1>
+    </header>
+
+
+    <div class="back">
+      <form>
+        <h3> Fill in The Form </h3>
+
+        <label> From : </label>
+        <input type="text" id="inName" placeholder="">
+
+        <label> Date : </label>
+        <input type="date" id="inDate" placeholder="">
+
+        <label> To : </label>
+        <input type="text" id="inTo" placeholder="">
+
+        <label> Message : </label>
+        <textarea id="inGreeting" rows="5" cols="60"></textarea>
+      </form>
+
+      <button onclick="preview()" type="submit" id="preview"> Preview </button>
+
+      <button id="download"> Download </button>
+
+      <div class="container">
+        <div class="card" id="result">
+
+          <header id="head">
+            <div class="camp">
+              <h4> Reunion Invitation </h4>
+            </div>
+            <img id="logo" src="tes.gif" id="logo" alt="">
+
+
+      <div class="content">
+        <img src="" id="imgDisplayed">
+          <ul>
+            <li id="name"></li>
+            <li id="date"></li>
+            <li id="to"></li>
+            <li id="Message"> Message </li>
+            <li> <span id="greeting" rows="5" cols="30"> </li>
+            </ul>
+          </header>
+      </div>
+        </div>
+      </div>
+
+    </body>
+</html>

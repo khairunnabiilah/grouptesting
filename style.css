@@ -1,0 +1,90 @@
+
+body {
+    font-family: , sans-serif;
+    background-image: url(graduation.jpg)
+}
+
+#outside {
+    z-index: 1;
+    position: absolute;
+    margin: auto;
+    margin-top: 125px;
+    top: 1%;
+    left: 25%;
+	background-color: white;
+	width: 445px;
+	height: 72%;
+	text-align: center;
+    display: inline-block;
+    /*card transform to open*/
+	transition: 1s;
+	transform-origin: 0;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+}
+
+.open-card {
+	transform: rotateY(90deg);
+}
+
+.graduation {
+    text-align: center;
+    font-size: 2.5em;
+    color: brown;
+    -moz-transform-origin:50% 100%;
+    -webkit-transform-origin:50% 100%;
+    -o-transform-origin:50% 100%;
+    -ms-transform-origin:50% 100%;
+    transform-origin:30% 100%;
+}
+
+.graduation:nth-of-type(1) {
+    transform: rotate(10deg);
+    transform: rotate(deg);
+    padding: 0px;
+    margin: 60px;
+}
+
+#inside {
+    z-index: 0;
+    position: absolute;
+    margin: 0 auto;
+    top: 1%;
+    left: 25%;
+    margin-top: 125px;
+    padding-top: 80px;
+    padding-bottom: 27px;
+	background-color: white;
+	width: 445px;
+	height: 57%;
+	text-align: center;
+	border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+}
+
+.graduate {
+    text-align: center;
+    font-size: 1.5em;
+    color: brown;
+    display: flex;
+    justify-content: center;
+}
+
+
+button {
+    display: block;
+    margin: 0 auto;
+    height: 45px;
+    width: 220px;
+    border-radius: 50%;
+    font-size: 1em;
+    background-color: burlywood;
+    border: 0;
+    color: maroon;
+    cursor: pointer;
+    transition:
+    transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}

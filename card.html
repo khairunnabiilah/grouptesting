@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Corporat</title>
+
+    <link rel="stylesheet" href="card1.css">
+
+    <script src="card1.js"></script>
+  </head>
+  <body>
+
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="corporatepage.html">Corporate</a></li>
+        <li><a href="frontpage.html">Formal</a></li>
+        <li><a href="cards.html">Informal</a></li>
+
+      </ul>
+
+
+      <header class="text-center">
+      <h2>Invitation card</h2>
+      </header>
+
+    <div class="container">
+            <div class="section-container">
+                <div class="text-center">Fill in the form</div>
+
+                <form onsubmit="return false">
+
+                <div class="form-element">
+
+                <label class="form-label">Enter Name:</label>
+
+                <input type="text" id="name"/>
+                </div>
+
+           <div class="form-element">
+                <label class="form-label">No. of people coming:</label>
+                <input type="number" id="coming"/>
+                   </div>
+
+
+         <div class="form-element">
+                <label class="form-label">Add request:</label>
+                <input type="text" id="addmsg"/>
+                </div>
+
+                   <button onclick="submitCard()">Submit</button>
+                   <button onclick="downloadCard()">Download</button>
+                </form>
+            </div>
+            <div class="section-container">
+                <div class="id-card-container" id="card">
+                    <div class="text-center">
+
+
+                    </div>
+                    <div class="card-container">
+                        <div class="card-wrapper">
+                            <div class="user-card">
+                                <span class="user-img">
+                                  <img class="img" src="golf2.jpg"></img>
+
+                                </span>
+                            </div>
+                            <div class="general-information">
+
+                              <div class="card-element">
+                                  <span id="cardName"></span>
+                              </div>
+                              <div class="card-element">
+                                      <span>You're Invited to Golf Fundraising Tournament</span>
+
+                                      </div>
+
+                            <div class="card-element">
+                                <span>No. of person coming: </span>
+                                <span id="cardComing"></span>
+                            </div>
+
+                            <div class="card-element">
+                                <span>Additional Request: </span>
+                                <span id="cardRequest"></span>
+                            </div>
+
+                <div class="card-element">
+                        <span>Venue: Tarindak D' Polo Royal,Brunei Polo and Riding Club</span>
+
+                        </div>
+
+                        <div class="card-element">
+                                <span>Date & Time: 21st June 2021. 8.00pm</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+  </body>
+</html>
+
+<!--reference: -->

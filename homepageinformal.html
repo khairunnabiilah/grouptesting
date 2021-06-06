@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Graduation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="script.js"></script>
+</head>
+
+    <body>
+
+      <nav>
+        <a href="index.html">Home</a>
+      </nav>
+
+    <!--Outside of the card-->
+        <div id="outside">
+
+            <p class="graduation">Graduation Day!</p>
+            <br>
+            <img src="head.jpg" width=400pxpx height=150px>
+            <img class="head"src="">
+            <button onclick="open_card()">Open</button>
+
+        </div>
+
+
+
+     <!--Inside of the card-->
+        <div id="inside">
+
+          <div class="graduate">
+            <h4>Convocation for intake 10!</h4>
+
+
+          </div>
+          <div id="form">
+            Convocation Ceremony
+            <p>You are invited! Save the date and join us on the actual for the convocation ceremony of Politeknik Brunei </p>
+            <label>Date:</label> <br>
+            <input type="date">
+            <br>
+            <label>Time:</label> <br>
+            <input type="time">
+            <br>
+            <label>Venue:</label> <br>
+            <textarea name="name" rows="2" cols="20" placeholder="Address"></textarea>
+
+          </div>
+
+
+
+
+        <p><button onclick="submit()">Submit</button></p>
+        <p><button onclick="close_card()">Close</button></p>
+        </div>
+
+        <input type="submit" name="Submit" value="">
+
+    </body>
+</html>
